@@ -1,0 +1,101 @@
+body{
+    height: 700px;
+    background-image: url(./phone.avif);
+    background-position:250px 150px ;
+    background-size: 550px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.random{
+    margin-left: 60px;
+    height: 170px;
+    width: 170px;
+}
+.names{
+    margin-right: 12px;
+    padding-right:9px ;
+    text-align: center;
+}
+.names .name{
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.names .propertier{
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+.names .websolution{
+    font-size: 15px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+i{
+   font-size: 20px;
+   margin-right: 2px;
+   background-color: rgb(229, 228, 228);
+   margin-bottom: 10px;
+}
+.contact-box {
+   
+    /* display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    width: 300px;
+    /* border: 1px solid #ccc;  */
+    padding: 16px;
+    margin: 16px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+.header{
+    margin-top: 250px;
+    margin-left: 350px;
+}
+
+.social{
+    /* border: 1px solid black; */
+    background-color: rgb(229, 228, 228);
+}
+
+.phone{
+    display: flex;
+    border: 2px solid #ccc;
+}
+.ph-img i{
+    margin: 10px;
+    font-size: 30px;
+    border: 1px solid white;
+    background-color: white;
+}
+.ph-contain{
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.contact-box p {
+    margin-bottom: 8px;
+}
+
+.contact-box a {
+    color: #007bff;
+    text-decoration: none;
+}
+.save{
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 90px;
+    background-color: darkblue;
+    
+}
+.save a{
+    color: white;
+}
+.save i{
+    margin-top: 5px;
+    background-color:darkblue ;
+    color: white;
+}
